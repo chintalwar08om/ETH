@@ -2,8 +2,8 @@
 This is a basic Solidity smart contract . 
 
 ## DESCIRPTION
-This Solidity smart contract contains several features to manage a custom token. It includes two public variables: one for the token's name and another for its abbreviation. The contract also has a variable that keeps track of the total token supply. To manage user balances, there is a mapping variable named "balances" that connects addresses with their corresponding token balances.
-The contract provides two essential functions: "mint" and "burn." The "mint" function allows the contract owner to increase the balance of a specific address by a given amount of tokens. On the other hand, the "burn" function allows the contract owner to decrease the balance of a specified address by a certain number of tokens, but only if the address has a sufficient balance to accommodate the requested reduction. In essence, these functions enable the contract owner to create new tokens (mint) and destroy existing tokens (burn) for specific addresses in the system.
+This smart contract contains several features. It includes two public variables one for the token's name and another for its abbreviation. The contract also has a variable that keeps track of the total token supply. To manage user balances, there is a variable named "balances" that connects addresses with their corresponding token balances.
+The contract provides two functions: mint and burn if we mint some tokens in then it reflects in our balance and if we want to burn tokens there is if statement which shows that the balance should be greater than the number of tokens we have to burn .
 
 ## GETTING STARTED
 Use remixIDE to run and compile
